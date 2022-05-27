@@ -58,7 +58,10 @@ There is not much difference in the low push numbers up for either the Line play
 ```{r}
 t.test(pushups~position,data=mydata)
 ```
+Yes there is a difference between the average number of pushups performed  by line players with a mean of 14.5. It is statistically different than that of skill players with a mean of 47.5 with the P-value  0.000009421 less than zero.   
 
 # Discussion and Conclusion  
-<!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->  
+<!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+I reject the $H_0$: that there is no difference between the average number of pushups of Line player vs Skkill player. There is a significant difference in weight between the Line and Skilled players on the foortball team. There may be a number of reasons one being weight difference and workout routines. Line players can weigh as high as 400lbs. While skilled players are more athletic and less bulky able to perform tasks such as push ups or pull ups etc. 
 
