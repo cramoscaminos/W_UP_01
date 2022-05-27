@@ -42,7 +42,7 @@ Position is a categorical variable. Push ups is a numerical variable. I will do 
 boxplot(pushups~position,data=mydata)
 ```
   
-There are 
+The Whisker Box plot for the Line position shows that line man perform pushups with a low 15 pushups and a high of 22 pushups.The Range is 22-15 equals a 7 push up differnce from high to low.  The Skill position players perform push ups with a low 20 pushups and a high of 60 push ups and one outlier at over 100 pushups. The Range is 60-20 equals a 40 pushup difference from high to low. When comparing the Line players and Skill players the range is 15 low and 60 high. That is a Range differnce of 45 push ups. The Whisker plot shows that the the first half Q1 and Q2 are closer to the bottom half of the push ups. The Skill whisker plots shows that the top half, that is  Q3 and Q4 are closer to the higher end of the push up spectrum. 
 
 ### Numerical Descriptive Results   
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->  
