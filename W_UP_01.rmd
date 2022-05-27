@@ -42,14 +42,14 @@ Position is a categorical variable. Push ups is a numerical variable. I will do 
 boxplot(pushups~position,data=mydata)
 ```
   
-The Whisker Box plot for the Line position shows that line man perform pushups with a low 15 pushups and a high of 22 pushups.The Range is 22-15 equals a 7 push up differnce from high to low.  The Skill position players perform push ups with a low 20 pushups and a high of 60 push ups and one outlier at over 100 pushups. The Range is 60-20 equals a 40 pushup difference from high to low. When comparing the Line players and Skill players the range is 15 low and 60 high. That is a Range differnce of 45 push ups. The Whisker plot shows that the the first half Q1 and Q2 are closer to the bottom half of the push ups. The Skill whisker plots shows that the top half, that is  Q3 and Q4 are closer to the higher end of the push up spectrum. 
-
+The Whisker Box plot for the Line position shows that line man perform pushups with a low 6 pushups and a high of 34 pushups.The Range is 34-6 equals a 28 push up differnce from high to low.  The Skill position players perform push ups with a low 18 pushups and a high of 90 push ups and one outlier at  108 pushups. The Range is 108-18 equals a 90 pushup difference from high to low. When comparing the Line players and Skill players the range is 6 low and 108 high. That is a Range differnce of 102 push ups. 
 ### Numerical Descriptive Results   
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->  
 ```{r}
 favstats(pushups~position,data=mydata)
 ```
-The median   
+There is not much difference in the low push numbers up for either the Line player or the Skilled player. However, there is a major Range difference betweeen the max in Q4 of the Skilled position. The Whisker plot shows that both Line and Skilled Players performed more push ups the top half, that is  Q3 and Q4  closer to the higher end of the push up spectrum. 
+ 
 
 ## Inferential Results  
 <!--State hypothesis clearly. Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc. Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->     
